@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>최진규 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/main.js" defer></script>
+    <script src="/js/slide.js" defer></script>
+    <script src="/js/reverse.js" defer></script>
+    <script src="/js/erase.js" defer></script>
+
+
+</head>
+
+<body>
+    <div class=fix1>
+    </div>
+    <section class="nav__bar">
+        <nav class="top__menu">
+            <ul>
+                <li><a class="menuLink" href="#" onclick="topMove('1')">TOP</a></li>
+                <li><a class="menuLink" href="#" onclick="fnMove('2')">ABOUT ME</a></li>
+                <li><a class="menuLink" href="#" onclick="fnMove('3')">SKILL</a></li>
+                <li><a class="menuLink" href="#" onclick="fnMove('4')">CONTACT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="sections">
+        <section class="info1">
+            <div class="greeting">
+                <div class="greeting__text">
+                    <span class="greeting__text__words">Hello World</span>
+                </div>
+            </div>
+        </section>
+        <section class="info2">
+            <div id="detail" class="about">
+                <div class="detail__section">
+                    <h1 class = "menu__title">ABOUT ME</h1>
+                    <p class="about1"><b>최</b> : 최선의 노력으로 개발자가 되고싶은<br><br>
+                        <b>진</b> : 진심 어린 꿈을 위해 저의 단점 하나하나를<br><br>
+                    <b>규</b> : 규절하고있는 최진규입니다!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="info3">
+            <div id="detail" class="skill">
+                <div class="detail__section">
+                    <h1 class = "menu__title">SKILL</h1>
+                    <h2>Front-end</h2>
+                    <div class="front__end">
+                        <div class = "skill">
+                        <div class="slide_wrap">
+                            <div class="slide_box">
+                                <div class="slide_list clearfix">
+                                    <div class="slide_content slide01">
+                                        <img src="/images/html.png" style="width: 100%;">
+                                    </div>
+                                    <div class="slide_content slide02">
+                                        <img src="/images/css.png" style="width: 100%;transform: translateY(-20px);">
+                                    </div>
+                                    <div class="slide_content slide03">
+                                        <img src="/images/js.png" style="width: 100%;">
+                                    </div>
+                                    <div class="slide_content slide04">
+                                        <img src="/images/ts.png" style="width: 100%; transform: translateY(80px);">
+                                    </div>
+                                    <div class="slide_content slide05">
+                                        <img src="/images/react.png" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide_btn_box">
+                                <button type="button" class="slide_btn_prev">Prev</button>
+                                <button type="button" class="slide_btn_next">Next</button>
+                            </div>
+                            <ul class="slide_pagination"></ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="info3">
+        <div id="detail" class="skill">
+            <div class="detail__section">
+                <h1 class = "menu__title">SKILL</h1>
+                <h2>BACK-END</h2>
+                    <div class="back__end">
+                    <div class="skill">
+                        <div class="slide_wrap2">
+                            <div class="slide_box2">
+                                <div class="slide_list2 clearfix2">
+                                    <div class="slide_content2 slide01">
+                                        <img src="/images/java.png" style="width: 100%;">
+                                    </div>  
+                                    <div class="slide_content2 slide02">
+                                        <img src="/images/oracle.png" style="width: 100%;transform: translateY(80px);">
+                                    </div>
+                                    <div class="slide_content2 slide03">
+                                        <img src="/images/spring.png" style="width: 100%;transform: translateY(80px);">
+                                    </div>
+                                    <div class="slide_content2 slide04">
+                                        <img src="/images/xml.png" style="width: 100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide_btn_box2">
+                                <button type="button" class="slide_btn_prev2">Prev</button>
+                                <button type="button" class="slide_btn_next2">Next</button>
+                            </div>
+                            <ul class="slide_pagination2"></ul>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+</section>
+    <section class="info4">
+        <div id="detail" class="contact">
+            <div class="detail__section">
+                <h1 class = "menu__title">CONTACT</h1>
+                <img src="/images/KakaoTalk_Photo_2021-05-25-12-49-46.png" class="qr__code">
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
